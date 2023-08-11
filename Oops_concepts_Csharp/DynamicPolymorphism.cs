@@ -26,7 +26,7 @@ class Square : Shape
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main5(string[] args)
     {
         Shape[] shapes = new Shape[3];
         shapes[0] = new Shape();

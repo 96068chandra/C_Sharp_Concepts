@@ -7,7 +7,7 @@
     <ProjectGuid>{37D51AF8-FBC2-4B9E-8749-DB1931353EEC}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Events_Delegates_LamdaExpression_Using_C_</RootNamespace>
-    <AssemblyName>Events_Delegates_LamdaExpression_Using_C_</AssemblyName>
+    <AssemblyName>Events_Delegates_LamdaExpression_Using_C#</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DelegateRealTimeExample.cs" />
+    <Compile Include="Delegate_Demo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
