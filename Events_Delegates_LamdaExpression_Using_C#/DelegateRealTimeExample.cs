@@ -23,7 +23,7 @@ namespace DelegatesRealTimeExample
     }
     class Program
     {
-        static void Main(string[] args)
+        static void Main4(string[] args)
         {
             WorkPerformedHandler del1 = new WorkPerformedHandler(Worker_WorkPerformed);
             WorkCompletedHandler del2 = new WorkCompletedHandler(Worker_WorkCompleted);

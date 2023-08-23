@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{37D51AF8-FBC2-4B9E-8749-DB1931353EEC}</ProjectGuid>
+    <ProjectGuid>{2EA6872A-2EA2-4287-8288-E19E86BA009E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Events_Delegates_LamdaExpression_Using_C_</RootNamespace>
-    <AssemblyName>Events_Delegates_LamdaExpression_Using_C#</AssemblyName>
+    <RootNamespace>MultiThreading_NET</RootNamespace>
+    <AssemblyName>MultiThreading_NET</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Anonymous_Method_Example.cs" />
-    <Compile Include="DelegateRealTimeExample.cs" />
-    <Compile Include="Delegate_Demo.cs" />
-    <Compile Include="Generic_Delegate.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="PromotionDemoUsingDelegate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
